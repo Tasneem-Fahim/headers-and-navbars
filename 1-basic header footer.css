@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100vw;
+	color: whitesmoke;
+	background-color: black;
+	height: 15vh;
+	top: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+img.logo{
+	width: 40px;
+	border: solid 1px cyan;
+	border-radius: 50%;
+	margin: 3px;
+	margin-left: 35px;
+}
+
+header h2{
+	float: right;
+	margin: 7px;
+	margin-right: 35px;
+	text-decoration: underline;
+}
+
+footer{
+	background-color: black;
+	width: 100vw;
+	height: 10vh;
+	color: whitesmoke;
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+	font-size: 80%;
+}
+
+footer p{
+	margin: 5px;
+}
+
+main{
+	margin: 10%;
+	padding: 5px;
+	text-align: justify;
+}
